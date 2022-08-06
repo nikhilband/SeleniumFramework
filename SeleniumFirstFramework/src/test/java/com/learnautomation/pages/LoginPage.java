@@ -10,7 +10,7 @@ public class LoginPage {
 
 	WebDriver driver;
 
-	//This is new comment from nikhil
+	
 	public LoginPage(WebDriver ldriver) {
 
 		this.driver = ldriver;
@@ -43,7 +43,6 @@ public class LoginPage {
 		username.sendKeys(usnameApplication);
 		pass.sendKeys(passApplication);
 		loginButton.click();
-
 	}
 
 }
